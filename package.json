@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jondisla/saulportfolio#readme",
   "dependencies": {
-    "animate.css": "^3.7.0"
+    "animate.css": "^3.7.0",
+    "aos": "^2.3.4"
   }
 }

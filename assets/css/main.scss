@@ -4,7 +4,7 @@ $pfontsize: 25px;
 $mobileheight: 300px;
 
 .navbar {
-    background: url("/assets/img/Dp.png");
+    background: url("../img/Dp.png");
     position: fixed;
     width: 100%;
     z-index: 2;
@@ -32,7 +32,7 @@ $mobileheight: 300px;
 }
 
 .first-section {
-    background: url("/assets/img/Dp.png");
+    background: url("../img/Dp.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
