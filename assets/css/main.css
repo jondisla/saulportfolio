@@ -1,0 +1,90 @@
+.navbar {
+  background: url("/assets/img/Dp.png");
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.navbar .logo a {
+  color: #9FA5AE !important;
+  z-index: 2;
+}
+
+.navbar .nav-link {
+  color: #9FA5AE !important;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  padding: 15px;
+}
+
+.first-section {
+  background: url("/assets/img/Dp.png");
+  background-size: cover;
+  height: 300px;
+}
+
+.first-section .jumbocontent {
+  position: absolute;
+  margin-top: 70px;
+  color: white;
+}
+
+.first-section .jumbocontent h2 {
+  color: #AE9D81;
+  text-shadow: 1px 3px 0 #969696, 1px 3px 5px #aba8a8;
+}
+
+.first-section .jumbocontent p {
+  margin-left: 100px;
+  font-size: 25px;
+}
+
+.first-section .jumbocontent p i {
+  color: red;
+}
+
+.first-section .jumbocontent ul {
+  list-style-type: none;
+  margin-left: 150px;
+  padding: 0;
+}
+
+.first-section .jumbocontent li {
+  display: inline;
+  padding: 5px;
+  font-size: 25px;
+  color: white;
+}
+
+.first-section .jumbocontent .smintro {
+  color: #60564E;
+  font-size: 25px;
+}
+
+.sec-section {
+  height: 300px;
+}
+
+.sec-section img {
+  width: 49%;
+  padding-bottom: 3px;
+}
+
+.sec-section ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sec-section li {
+  display: inline;
+}
+/*# sourceMappingURL=main.css.map */
