@@ -11,7 +11,7 @@
 }
 
 .navbar .nav-link {
-  color: #9FA5AE !important;
+  color: black;
 }
 
 .navbar ul {
@@ -39,7 +39,7 @@
 
 .first-section .jumbocontent h2 {
   color: #AE9D81;
-  text-shadow: 1px 3px 0 #969696, 1px 3px 5px #aba8a8;
+  text-shadow: 1px 3px 0 #969696, 1px 3px 5px #434343;
 }
 
 .first-section .jumbocontent p {
@@ -64,7 +64,7 @@
   color: white;
 }
 
-.first-section .jumbocontent .smintro {
+.smintro {
   color: #60564E;
   font-size: 25px;
 }
@@ -86,5 +86,32 @@
 
 .sec-section li {
   display: inline;
+}
+
+.sec-section .box {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .nav-link {
+    color: white !important;
+  }
+  .first-section {
+    height: 500px;
+  }
+  .first-section .jumbocontent {
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+  }
+  .smintro {
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+    width: 80%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
