@@ -5,9 +5,6 @@ $mobileheight: 300px;
 
 .navbar {
     background: url("../img/Dp.png");
-    position: fixed;
-    width: 100%;
-    z-index: 2;
 
 
     .logo a {
@@ -99,11 +96,6 @@ $mobileheight: 300px;
 
     }
 
-    .box {
-        width: 200px;
-        height: 200px;
-        border: 2px solid black;
-    }
 
 }
 
@@ -130,5 +122,18 @@ $mobileheight: 300px;
         text-align: center;
         width: 80%;
     }
+
+    .sec-section {
+
+        iframe {
+            width: 460px;
+            height: 315px;
+        }
+
+        .retrogames {
+            font-size: 30px;
+        }
+    }
+
 
 }

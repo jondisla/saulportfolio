@@ -1,8 +1,5 @@
 .navbar {
   background: url("../img/Dp.png");
-  position: fixed;
-  width: 100%;
-  z-index: 2;
 }
 
 .navbar .logo a {
@@ -88,12 +85,6 @@
   display: inline;
 }
 
-.sec-section .box {
-  width: 200px;
-  height: 200px;
-  border: 2px solid black;
-}
-
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
   .nav-link {
@@ -112,6 +103,13 @@
     font-size: 30px;
     text-align: center;
     width: 80%;
+  }
+  .sec-section iframe {
+    width: 460px;
+    height: 315px;
+  }
+  .sec-section .retrogames {
+    font-size: 30px;
   }
 }
 /*# sourceMappingURL=main.css.map */
