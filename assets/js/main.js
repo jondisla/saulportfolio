@@ -1,3 +1,7 @@
 AOS.init({
-    duration: 1200
+    duration: 1300
 });
+
+$(document).ready(function () {
+
+})

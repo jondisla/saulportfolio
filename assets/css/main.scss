@@ -43,7 +43,7 @@ $mobileheight: 300px;
 
 
         h2 {
-            color: #AE9D81;
+            color: white;
             text-shadow: 1px 3px 0 #969696, 1px 3px 5px #434343;
         }
 
@@ -81,7 +81,7 @@ $mobileheight: 300px;
     height: $mobileheight;
 
     img {
-        width: 49%;
+        width: 50%;
         padding-bottom: 3px;
     }
 
@@ -96,6 +96,16 @@ $mobileheight: 300px;
 
     }
 
+    figure {
+        background: white !important;
+    }
+
+    figcaption {
+        background-color: rgba(0, 0, 0, 0.6) !important;
+        color: white;
+        width: 50%;
+        font-size: 10%;
+    }
 
 }
 
@@ -124,6 +134,7 @@ $mobileheight: 300px;
     }
 
     .sec-section {
+        color: $primarytextcolor;
 
         iframe {
             width: 460px;
@@ -132,8 +143,25 @@ $mobileheight: 300px;
 
         .retrogames {
             font-size: 30px;
-        }
-    }
 
+        }
+
+        img {
+            width: 100%;
+            padding-bottom: 3px;
+        }
+
+        figure {
+            background: white !important;
+        }
+
+        figcaption {
+            background-color: rgba(0, 0, 0, 0.6) !important;
+            color: white;
+            width: 100%;
+            font-size: 100%;
+        }
+
+    }
 
 }
