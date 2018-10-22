@@ -1,19 +1,27 @@
-$primarytextcolor: #60564E;
+$primarytextcolor: rgb(59, 59, 119);
+;
 $bullets: red;
 $pfontsize: 25px;
 $mobileheight: 300px;
 
 .navbar {
     background: url("../img/Dp.png");
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 
 
-    .logo a {
-        color: #9FA5AE !important;
+    .logo {
+        color: rgb(83, 83, 161);
         z-index: 2;
+        font-family: 'Arizonia', cursive;
+        font-size: 30px;
+
     }
 
     .nav-link {
-        color: black;
+        color: rgb(83, 83, 161);
+
     }
 
     ul {
@@ -25,6 +33,7 @@ $mobileheight: 300px;
     li {
         display: inline;
         padding: 15px;
+        color: $primarytextcolor;
     }
 }
 
@@ -44,7 +53,8 @@ $mobileheight: 300px;
 
         h2 {
             color: white;
-            text-shadow: 1px 3px 0 #969696, 1px 3px 5px #434343;
+            text-shadow: 1px 3px 0 rgb(83, 83, 161), 1px 3px 5px rgb(83, 83, 161);
+            ;
         }
 
         p {

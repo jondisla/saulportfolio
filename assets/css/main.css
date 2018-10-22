@@ -1,14 +1,19 @@
 .navbar {
   background: url("../img/Dp.png");
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
-.navbar .logo a {
-  color: #9FA5AE !important;
+.navbar .logo {
+  color: #5353a1;
   z-index: 2;
+  font-family: 'Arizonia', cursive;
+  font-size: 30px;
 }
 
 .navbar .nav-link {
-  color: black;
+  color: #5353a1;
 }
 
 .navbar ul {
@@ -20,6 +25,7 @@
 .navbar li {
   display: inline;
   padding: 15px;
+  color: #3b3b77;
 }
 
 .first-section {
@@ -36,7 +42,7 @@
 
 .first-section .jumbocontent h2 {
   color: white;
-  text-shadow: 1px 3px 0 #969696, 1px 3px 5px #434343;
+  text-shadow: 1px 3px 0 #5353a1, 1px 3px 5px #5353a1;
 }
 
 .first-section .jumbocontent p {
@@ -62,7 +68,7 @@
 }
 
 .smintro {
-  color: #60564E;
+  color: #3b3b77;
   font-size: 25px;
 }
 
@@ -120,7 +126,7 @@
     width: 80%;
   }
   .sec-section {
-    color: #60564E;
+    color: #3b3b77;
   }
   .sec-section iframe {
     width: 460px;
