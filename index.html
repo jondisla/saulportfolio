@@ -33,8 +33,8 @@
         </div>
         <div class="nav-link">
             <ul>
-                <li>Bio</li>
-                <li>Projects</li>
+                <!-- <li>Bio</li>
+                <li>Projects</li> -->
             </ul>
         </div>
     </div>
@@ -60,29 +60,28 @@
     </div>
     <div class="container">
         <div class="smintro animated zoomIn delay-1s">
-            Hello, I'm Saul Disla
-            and I love working with all mediums of Digital Media. I can design for print and the web, illustrate and
-            animate, and I also work with video. This is my digital portfolio. Thanks for visiting, click on and
-            hopefully we'll chat later.
+            Hello, I’m Saul Disla and I am a Cinematographer and a Motion Graphics Artist. I love all aspects of video
+            production and digital media. This my digital portfolio.
         </div>
         <hr>
+        <br>
 
         <!-- secsection -->
         <div class="sec-section">
-            <h1>Documentary</h1>
+            <center>
+                <h3>Featured</h3>
+            </center>
+            <br>
+            <h3>Retro Games</h3>
             <div class="video">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <iframe src="https://www.youtube.com/embed/5ryGvk4tnaE" frameborder="0" allow="autoplay; encrypted-media"
-                            allowfullscreen data-aos="flip-up"></iframe>
-                    </div>
-                    <div class="col-lg-6 retrogames" data-aos="fade-left">
-                        Retro Games is a video game store. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Molestiae
-                        earum qui aliquam exercitationem? Laboriosam architecto tenetur perspiciatis voluptatem tempore
-                        illo.
-                    </div>
-                </div>
+                <iframe id="video" src="https://www.youtube.com/embed/5ryGvk4tnaE?autoplay=1&start=41;" frameborder="0"
+                    allow="autoplay; encrypted-media" allowfullscreen data-aos="flip-up"></iframe>
+            </div>
+            <br>
+            <h3>The Deal</h3>
+            <div class="video">
+                <iframe id="video" src="https://www.youtube.com/embed/IWKZOSSDSgM" frameborder="0" allow="autoplay; encrypted-media"
+                    allowfullscreen data-aos="flip-up"></iframe>
             </div>
             <hr>
             <ul>
@@ -94,7 +93,7 @@
                             <figcaption>
                                 <h3>Wheat-Berry</h3>
                                 <h4>Videographer</h4>
-                                <button type="button" class="btn btn-info">See It</button>
+                                <button id="wheatBtn" type="button" class="btn btn-info">See It</button>
                             </figcaption>
                         </figure>
                     </div>
@@ -104,7 +103,7 @@
                             <figcaption>
                                 <h3>Gym</h3>
                                 <h4>Videographer</h4>
-                                <button type="button" class="btn btn-info">See It</button>
+                                <button id="gymBtn" type="button" class="btn btn-info">See It</button>
                             </figcaption>
                         </figure>
                     </div>
@@ -117,7 +116,7 @@
                             <figcaption>
                                 <h3>Izak</h3>
                                 <h4>Photographer</h4>
-                                <button type="button" class="btn btn-info">See It</button>
+                                <button id="izakBtn" type="button" class="btn btn-info">See It</button>
                             </figcaption>
                         </figure>
                     </div>
@@ -127,7 +126,7 @@
                             <figcaption>
                                 <h3>Music Vid</h3>
                                 <h4>Editor</h4>
-                                <button type="button" class="btn btn-info">See It</button>
+                                <button id="musicBtn" type="button" class="btn btn-info">See It</button>
                             </figcaption>
                         </figure>
                     </div>
@@ -140,7 +139,8 @@
                             <figcaption>
                                 <h3>The Deal</h3>
                                 <h4>Cinematographer</h4>
-                                <button type="button" class="btn btn-info">See It</button>
+                                <button id="dealBtn" type="button" class="btn btn-info">See
+                                    It</a></button>
                             </figcaption>
                         </figure>
                     </div>
@@ -150,7 +150,7 @@
                             <figcaption>
                                 <h3>Alarm</h3>
                                 <h4>Cinematographer</h4>
-                                <button type="button" class="btn btn-info">See It</button>
+                                <button id="movieBtn" type="button" class="btn btn-info">See It</button>
                             </figcaption>
                         </figure>
                     </div>
@@ -158,20 +158,88 @@
             </ul>
             <center><button type="button" class="btn btn-info">MORE</button></center>
         </div>
+    </div>
+
+    <!-- MODALS -->
+    <div id="wheatModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="vid-wrapper">
+                <iframe id="video" src="https://www.youtube.com/embed/IWKZOSSDSgM" frameborder="0" allow="autoplay; encrypted-media"
+                    allowfullscreen></iframe></div>
+        </div>
+    </div>
+
+    <div id="gymModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="vid-wrapper">
+                <iframe id="video" src="https://www.youtube.com/embed/vjEjCcZyPK0" frameborder="0" allow="autoplay; encrypted-media"
+                    allowfullscreen></iframe></div>
+        </div>
+    </div>
+
+    <div id="izakModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="vid-wrapper">
+                <iframe id="video" src="https://www.youtube.com/embed/IWKZOSSDSgM" frameborder="0" allow="autoplay; encrypted-media"
+                    allowfullscreen></iframe></div>
+        </div>
+    </div>
+
+    <div id="musicModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="vid-wrapper">
+                <iframe id="video" src="https://www.youtube.com/embed/IWKZOSSDSgM" frameborder="0" allow="autoplay; encrypted-media"
+                    allowfullscreen></iframe></div>
+        </div>
+    </div>
 
 
+    <!-- The Deal -->
+    <div id="dealModal" class="modal">
 
-        <!-- /secsection -->
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
-            crossorigin="anonymous"></script>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script src="assets/js/main.js"></script>
+        <!-- Modal content -->
+        <div class="modal-content">
+            <!-- <span class="close">&times;</span> -->
+            <div class="vid-wrapper">
+                <iframe id="video" src="https://www.youtube.com/embed/IWKZOSSDSgM" frameborder="0" allow="autoplay; encrypted-media"
+                    allowfullscreen></iframe></div>
+        </div>
+    </div>
+
+    <div id="movieModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <!-- <span class="close">&times;</span> -->
+            <div class="vid-wrapper">
+                <iframe id="video" src="https://www.youtube.com/embed/IWKZOSSDSgM" frameborder="0" allow="autoplay; encrypted-media"
+                    allowfullscreen></iframe></div>
+        </div>
+    </div>
+
+    <!-- /secsection -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
 
 </body>
 
