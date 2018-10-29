@@ -3,6 +3,14 @@ $bullets: red;
 $pfontsize: 25px;
 $mobileheight: 300px;
 
+html,
+body {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUXub-CJQkabDqCynFBqHrGlHkS9I94S0z8WLec776-6sHQ-QYQg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 .navbar {
     background: url("../img/Dp.png");

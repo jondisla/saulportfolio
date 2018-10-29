@@ -44,14 +44,14 @@ $(document).ready(function () {
     }
 
     // When the user clicks on <span> (x), close the deal
-    span.onclick = function () {
-        wheat.style.display = "none";
-        gym.style.display = "none";
-        izak.style.display = "none";
-        music.style.display = "none";
-        deal.style.display = "none";
-        movie.style.display = "none";
-    }
+    // span.onclick = function () {
+    //     wheat.style.display = "none";
+    //     gym.style.display = "none";
+    //     izak.style.display = "none";
+    //     music.style.display = "none";
+    //     deal.style.display = "none";
+    //     movie.style.display = "none";
+    // }
 
     // When the user clicks anywhere outside of the deal, close it
     window.onclick = function (event) {
