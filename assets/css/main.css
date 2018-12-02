@@ -1,6 +1,9 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
 html,
 body {
-  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUXub-CJQkabDqCynFBqHrGlHkS9I94S0z8WLec776-6sHQ-QYQg") no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -48,7 +51,7 @@ body {
 
 .first-section .jumbocontent h2 {
   color: white;
-  text-shadow: 1px 3px 0 #5353a1, 1px 3px 5px #5353a1;
+  font-family: 'Tangerine', cursive !important;
 }
 
 .first-section .jumbocontent p {
@@ -76,6 +79,8 @@ body {
 .smintro {
   color: #3b3b77;
   font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
 }
 
 .sec-section {
@@ -102,8 +107,10 @@ body {
           animation: none !important;
 }
 
-.sec-section figure {
-  background: white !important;
+.sec-section h3,
+.sec-section p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
 }
 
 .sec-section figcaption {

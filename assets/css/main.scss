@@ -2,10 +2,16 @@ $primarytextcolor: rgb(59, 59, 119);
 $bullets: red;
 $pfontsize: 25px;
 $mobileheight: 300px;
+$mainFont: 'Montserrat',
+sans-serif;
+
+* {
+    font-family: $mainFont;
+}
 
 html,
 body {
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUXub-CJQkabDqCynFBqHrGlHkS9I94S0z8WLec776-6sHQ-QYQg")no-repeat center center fixed;
+    // background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUXub-CJQkabDqCynFBqHrGlHkS9I94S0z8WLec776-6sHQ-QYQg")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -61,8 +67,8 @@ body {
 
         h2 {
             color: white;
-            text-shadow: 1px 3px 0 rgb(83, 83, 161), 1px 3px 5px rgb(83, 83, 161);
-            ;
+            // text-shadow: 1px 3px 0 rgb(83, 83, 161), 1px 3px 5px rgb(83, 83, 161);
+            font-family: 'Tangerine', cursive !important;
         }
 
         p {
@@ -93,6 +99,8 @@ body {
 .smintro {
     color: $primarytextcolor;
     font-size: $pfontsize;
+    font-family: $mainFont;
+    letter-spacing: 2px;
 }
 
 .sec-section {
@@ -119,7 +127,13 @@ body {
     }
 
     figure {
-        background: white !important;
+        // background: white !important;
+    }
+
+    h3,
+    p {
+        font-family: $mainFont;
+        font-weight: 900;
     }
 
     figcaption {
