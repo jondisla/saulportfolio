@@ -81,6 +81,7 @@ body {
   font-size: 25px;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 2px;
+  font-size: 25px !important;
 }
 
 .sec-section {
@@ -193,6 +194,15 @@ body {
 }
 
 /* Small Devices, Tablets */
+@media only screen and (max-width: 400px) {
+  .smintro {
+    font-size: 20px !important;
+  }
+  .contactMe {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 600px) {
   .nav-link {
     color: white !important;
