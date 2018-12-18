@@ -57,6 +57,7 @@ $(document).ready(function () {
     window.onclick = function (event) {
         if (event.target == wheat) {
             wheat.style.display = "none";
+            
         } else if (event.target == gym) {
             gym.style.display = "none";
         } else if (event.target == izak) {
